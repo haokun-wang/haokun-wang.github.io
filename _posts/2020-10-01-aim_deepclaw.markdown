@@ -2,7 +2,7 @@
 layout: post
 title:  "DeepClaw: A Robotic Hardware Benchmarking Platform for Learning Object Manipulation"
 date:   2020-10-01 00:00:00 +08:00
-image: /202010-aim-deepclaw.jpg
+image: /202010-aim-deepclaw.JPG
 categories: Conference
 author: "H. Wang"
 authors: "F. Wan, <strong>H. Wang</strong>, X. Liu, L. Yang, and C. Song"
