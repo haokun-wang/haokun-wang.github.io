@@ -2,12 +2,13 @@
 layout: post
 title:  "Impact-Aware Motion Planning and Control for Aerial Robots with Suspended Payloads"
 date:   2023-04-28 12:01:21 +08:00
-image: /images/impact.jpg
+image: /202304-impact.jpg
 categories: Preprint
 author: "H. Wang"
 authors: "<strong>H. Wang$^{+}$</strong>, H. Li$^{+}$, B. Zhou, F. Gao, and S. Shen"
 venue: "under review"
 code: https://github.com/HKUST-Aerial-Robotics/IMPACTOR
 website: https://sites.google.com/view/suspended-payload/
+video: https://www.bilibili.com/video/BV1zg4y1L7dC/?share_source=copy_web&vd_source=4a496bdfc1980dd80977a281d5c963c0
 ---
-We propose impact-aware trajectory planning algorithm and NMPC method for a aerial robot with a cable-suspended payload system to generate hybrid slack-taut mode flight. 
+A quadrotor with a cable-suspended payload system has dual motion modes, depending on whether the cable is slack or not, and present complicated dynamics. In this work, we propose a novel impact-aware planning and control framework that resolves potential impacts caused by motion mode switching.

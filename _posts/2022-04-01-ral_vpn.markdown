@@ -2,11 +2,12 @@
 layout: post
 title:  "Real-Time Collision-Free Grasp Pose Detection with Geometry-Aware Refinement Using High-Resolution Volume"
 date:   2022-04-01 00:00:00 +08:00
-image: /images/202004-ral-vpn.jpg
+image: /202204-ral-vpn.jpg
 categories: Journal
 author: "H. Wang"
 authors: "J. Cai, J. Cen, <strong>H. Wang</strong>, and M. Y. Wang"
 venue: "IEEE Robotics and Automation Letters (RA-L)"
 paper: https://ieeexplore.ieee.org/abstract/document/9681231/
+website: https://sites.google.com/view/vpn-icra2022
 ---
-We propose impact-aware trajectory planning algorithm and NMPC method for a aerial robot with a cable-suspended payload system to generate hybrid slack-taut mode flight. 
+In this letter, we propose a novel vision-based grasp system for closed-loop 6-degrees of freedom grasping of unknown objects in cluttered environments.
