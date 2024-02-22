@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A Reconfigurable Design for Omni-Adaptive Grasp Learning"
+date:   2020-07-01 00:00:00 +08:00
+image: /202007-ral-omini.jpg
+categories: Journal
+author: "H. Wang"
+authors: "F. Wan, <strong>H. Wang</strong>, J. Wu, Y. Liu, S. Ge, and C. Song"
+venue: "IEEE Robotics and Automation Letters (RA-L)"
+paper: https://ieeexplore.ieee.org/abstract/document/9042262
+---
+In this letter, we investigate how learning method can be used to support the design reconfiguration of robotic grippers for grasping using a novel soft structure with omni-directional adaptation.

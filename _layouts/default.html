@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script> 
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$']],
+        processEscapes: true
+      }
+    };
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E00L9PT3V9');
+  </script>
+  <title>{{ site.name }}</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+              Haokun Wang
+              </h1>
+              <p>I am a Ph.D. candidate at the <a href="https://ri.hkust.edu.hk/">Cheng Kar-Shun Robotics Institute (CKSRI)</a>, HKUST, advised by Prof. <a href="https://https://uav.hkust.edu.hk/">Shaojie Shen</a> and co-advised by Prof. <a href="https://scholar.google.com.sg/citations?user=Oo7c22wAAAAJ&hl=en">Michael Yu Wang</a>.
+                 My research interests include various aspects of robotics science and systems, mainly focusing on safe and precise robot motion.</p>
+              <p>In the early stages, my research primarily revolved around utilizing tactile and visual perception in robot arms to accomplish dexterous manipulation tasks, such as adaptive grasping and peg-in-hole assembly.
+                 More recently, I am particularly interested in developing motion planning and control methods that can guarantee safety and precision in complex and uncertain environments, especially in the scenarios where contact is inevitable or intentional.
+              </p>   
+                 <!-- I firmly believe that intelligent physical systems can extend or augment human capabilities, aiding us in exploring a broader future.</p> -->
+              <p>I recieved my bachelor' degree from the <a href="https://cse.sustech.edu.cn/en/">Department of CSE</a>, <a href="https://www.sustech.edu.cn/en/">SUSTech</a> in 2019.
+                Subsequently, I worked as a research assistant at <a href="https://bionicdl.ancorasir.com/">BionicDL Lab</a> for a year.</p>
+              <p style="text-align:center">
+                <a href="mailto:haokun-wang@outlook.com"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/haokun-wang">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=Mf2_dM4AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/haokun-w-3b23931a4"> LinkedIn </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/WANG Haokun.jpg">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Preprint</h2>
+              <!-- <p>
+                My research focus lies in motion planning and control of robotic systems.
+              </p> -->
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'Preprint' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              <!-- {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %} -->
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Journals & Magazines</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'Journal' %}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+              <br>
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+        <br>
+        <br>
+        <br>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Conferences</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+          {% for post in site.posts %}
+          {% for cat in post.categories %}
+          {% if cat == 'Conference'%}
+          <tr>
+            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+              <br>
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> /
+              {% endif %}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> /
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://leonidk.com/">Leonid Keselman's website</a> and <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
