@@ -2,7 +2,7 @@
 layout: post
 title:  "Deepclaw 2.0: A data collection platform for learning human manipulation"
 date:   2022-03-01 00:00:00 +08:00
-image: /202203-fai-deepclaw2.jpg
+image: /202203-fai-deepclaw2.JPG
 categories: Journal
 author: "H. Wang"
 authors: "<strong>H. Wang</strong>, X. Liu, N. Qiu, N. Guo, F. Wan, and C. Song"

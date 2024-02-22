@@ -2,7 +2,7 @@
 layout: post
 title:  "Real-Time Collision-Free Grasp Pose Detection with Geometry-Aware Refinement Using High-Resolution Volume"
 date:   2022-04-01 00:00:00 +08:00
-image: /202204-ral-vpn.jpg
+image: /202204-ral-vpn.JPG
 categories: Journal
 author: "H. Wang"
 authors: "J. Cai, J. Cen, <strong>H. Wang</strong>, and M. Y. Wang"

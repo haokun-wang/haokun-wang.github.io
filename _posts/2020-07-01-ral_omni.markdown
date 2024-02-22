@@ -2,7 +2,7 @@
 layout: post
 title:  "A Reconfigurable Design for Omni-Adaptive Grasp Learning"
 date:   2020-07-01 00:00:00 +08:00
-image: /202007-ral-omini.jpg
+image: /202007-ral-omini.JPG
 categories: Journal
 author: "H. Wang"
 authors: "F. Wan, <strong>H. Wang</strong>, J. Wu, Y. Liu, S. Ge, and C. Song"

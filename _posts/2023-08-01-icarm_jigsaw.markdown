@@ -2,7 +2,7 @@
 layout: post
 title:  "Jigsaw-based Benchmarking for Learning Robotic Manipulation"
 date:   2023-08-01 00:00:00 +08:00
-image: /202308-icarm-jigsaw.jpg
+image: /202308-icarm-jigsaw.JPG
 categories: Conference
 author: "H. Wang"
 authors: "X. Liu, F. Wan, S. Ge, <strong>H. Wang</strong>, H. Sun, and C. Song"

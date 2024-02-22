@@ -2,7 +2,7 @@
 layout: post
 title:  "Rigid-Soft Interactive Learning for Robust Grasping"
 date:   2020-04-01 00:00:00 +08:00
-image: /202004-ral-rigid.jpg
+image: /202004-ral-rigid.JPG
 categories: Journal
 author: "H. Wang"
 authors: "L. Yang, F. Wan, <strong>H. Wang</strong>, X. Liu, Y. Liu, J. Pan, and C. Song"

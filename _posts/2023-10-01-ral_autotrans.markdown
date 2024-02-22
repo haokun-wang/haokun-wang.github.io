@@ -2,7 +2,7 @@
 layout: post
 title:  "AutoTrans: A Complete Planning and Control Framework for Autonomous UAV Payload Transportation"
 date:   2023-10-01 00:00:00 +08:00
-image: /202310-ral-autotrans.jpg
+image: /202310-ral-autotrans.JPG
 categories: Journal
 author: "H. Wang"
 authors: "H. Li, <strong>H. Wang</strong>, C. Feng, F. Gao, B. Zhou, and S. Shen"
