@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Impact-Aware Motion Planning and Control for Aerial Robots with Suspended Payloads"
-date:   2023-04-28 12:01:21 +08:00
+date:   2024-03-06 12:01:21 +08:00
 image: /202304-impact.JPG
-categories: Preprint
+categories: Journal
 author: "H. Wang"
 authors: "<strong>H. Wang$^{+}$</strong>, H. Li$^{+}$, B. Zhou, F. Gao, and S. Shen"
-venue: "under review"
+venue: "accepted by Transections on Robotics (T-RO)"
 code: https://github.com/HKUST-Aerial-Robotics/IMPACTOR
 website: https://sites.google.com/view/suspended-payload/
 video: https://www.bilibili.com/video/BV1zg4y1L7dC/?share_source=copy_web&vd_source=4a496bdfc1980dd80977a281d5c963c0
